@@ -43,6 +43,8 @@ var jscrusher = (function() {
 
   // todo: should probably use http://en.wikipedia.org/wiki/Longest_repeated_substring_problem
   // todo: http://stackoverflow.com/questions/4484440/the-most-frequent-substring-of-length-x
+  // todo: http://stackoverflow.com/questions/1597025/most-common-substring-of-length-x
+  // todo: http://www.geeksforgeeks.org/find-the-k-most-frequent-words-from-a-file/
   function findOutBestCandidates(inputscript, strategy) {
     var candidates = [];
 
